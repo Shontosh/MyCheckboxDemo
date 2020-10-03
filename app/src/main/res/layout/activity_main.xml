@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="#742A1683"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_name"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ff22"
+        android:padding="20dp"
+
+        />
+   <CheckBox
+       android:id="@+id/pcid"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/pc_name"
+       android:textSize="20dp"
+       android:layout_marginLeft="20dp"
+       />
+   <CheckBox
+       android:id="@+id/gpuid"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/gpu_name"
+       android:textSize="20dp"
+       android:layout_marginLeft="20dp"
+       />
+   <CheckBox
+       android:id="@+id/motherboardid"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/motherboard_name"
+       android:textSize="20dp"
+       android:layout_marginLeft="20dp"
+       />
+    <Button
+        android:id="@+id/buttonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_name"
+        android:layout_margin="20dp"
+
+        />
+    <TextView
+        android:id="@+id/textviewid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#ff22"
+        android:layout_margin="20dp"
+
+
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyCheckboxDemo</string>
+    <string name="text_name">What You Want To Buy ?</string>
+    <string name="pc_name">Processor</string>
+    <string name="gpu_name">GPU</string>
+    <string name="motherboard_name">Motherboard</string>
+    <string name="button_name">Add to Cart</string>
+</resources>
